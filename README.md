@@ -4,6 +4,7 @@ DEMO: http://andrija1987.eu/tasksdemo
 
 Tasks is based on PHP,mysql,jquery programming languages. It's main goal is to help you insert/list your tasks/milestones/projects.
 This is a very basic version, 1.0. Newer versions will have user managament and a DASHBOARD with statistics :)
+In this version you can not delete/remove inserted data, will be integrated soon.
 
 .) Requirements
 
