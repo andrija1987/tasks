@@ -21,7 +21,8 @@ function GetGlobalConnectionOptions()
   'server' => 'localhost',
   'port' => '3306',
   'username' => 'root',
-  'database' => 'tasks'
+        'database' => 'tasks',
+        // 'password' => 'Lokarda7'
 );
 }
 
