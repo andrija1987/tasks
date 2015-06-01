@@ -1,5 +1,6 @@
 # tasks
 Tasks project manager (php,mysql,jquery...)
+DEMO: http://andrija1987.eu/tasksdemo
 
 Tasks is based on PHP,mysql,jquery programming languages. It's main goal is to help you insert/list your tasks/milestones/projects.
 This is a very basic version, 1.0. Newer versions will have user managament and a DASHBOARD with statistics :)
@@ -33,6 +34,8 @@ Don't forget about settings permissions (chmod) and vhosts in apache2.conf/ (ngi
 How to use:
 
 Very simple, just insert the data :)
+
+DEMO: http://andrija1987.eu/tasksdemo
 
 License:
 
