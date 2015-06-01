@@ -1,6 +1,7 @@
 # tasks
 Tasks project manager (php,mysql,jquery...)
 DEMO: http://andrija1987.eu/tasksdemo
+NOT READY FOR PRODUCTION BECAUSE security vulnerabilities and exposures. !!
 
 Tasks is based on PHP,mysql,jquery programming languages. It's main goal is to help you insert/list your tasks/milestones/projects.
 This is a very basic version, 1.0. Newer versions will have user managament and a DASHBOARD with statistics :)
@@ -8,14 +9,13 @@ In this version you can not delete/remove inserted data in the app, will be inte
 
 .) Requirements
 
-before you start installing tasks, please make sure you meet following requirements:
+before you start git cloning/copying tasks, please make sure you meet following requirements:
 
-Apache2 webserver with php support
+Apache2/Nginx webserver with php support
 Mysql server (5.1+)
 php version 5.3 or later with following php modules enabled:
 mysqli : Adds support for the improved mySQL libraries
 session : Adds persistent session support
-gmp : Adds support for dev-libs/gmp (GNU MP library) -> to calculate IPv6 networks
 php PEAR support
 Usually most php modules all are built into default php installation. If some required modules are missing tasks will fail with warning and notify you about them.
 
