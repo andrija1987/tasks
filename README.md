@@ -2,7 +2,7 @@
 Tasks project manager (php,mysql,jquery...)
 
 Tasks is based on PHP,mysql,jquery programming languages. It's main goal is to help you insert/list your tasks/milestones/projects.
-This is a very basic version, 1.0 
+This is a very basic version, 1.0. Newer versions will have user managament and a DASHBOARD with statistics :)
 
 .) Requirements
 
@@ -27,6 +27,8 @@ Insert tasks.sql into your MySql Database( heidiSQL(opensource),phpmyadmin,MySql
 mysql -u root -p
 create database [] ;
 mysql -u root -p[root_password] [database_name] < tasks.sql
+
+Don't forget about settings permissions (chmod) and vhosts in apache2.conf/ (nginx/conf)
 
 How to use:
 
