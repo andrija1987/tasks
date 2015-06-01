@@ -22,8 +22,10 @@ You can check which php modules are enabled by issuing php -m in command line.
 .) How to install
 
 Just clone the git or copy folder in htdocs, and set the DB,port,username,password(commented line) parameters in phpgen_settings.php file.
-Insert tasks.sql into your MySql Database( heidiSQL(opensource),phpmyadmin,MySql Workbench etc...) or just a command line
+Insert tasks.sql into your MySql Database( heidiSQL(opensource),phpmyadmin,MySql Workbench etc...) or just a terminal(bash,zsh...)
 
+mysql -u root -p
+create database [] ;
 mysql -u root -p[root_password] [database_name] < tasks.sql
 
 How to use:
